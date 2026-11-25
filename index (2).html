@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>مطعم النخيل | قائمة الطعام والتواصل</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff7ed;--ink:#2b1608;--accent:#c2410c;--soft:#fde3c8}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1109;--ink:#f7e8d8;--accent:#fb923c;--soft:#2e1d10}}
+*{box-sizing:border-box}
+body{margin:0;font-family:Cairo,system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.8}
+header{background:var(--accent);color:#fff;padding:64px 20px;text-align:center}
+header h1{margin:0;font-size:clamp(2.4rem,8vw,4rem);font-weight:900}
+header p{margin:8px 0 0;font-size:1.15rem}
+main{max-width:760px;margin:0 auto;padding:40px 20px}
+h2{font-size:1.5rem}
+.menu{list-style:none;padding:0}
+.menu li{display:flex;justify-content:space-between;gap:12px;padding:14px 0;border-bottom:1px dashed var(--accent)}
+.menu b{white-space:nowrap}
+.info{background:var(--soft);padding:20px;border-radius:12px}
+a.call{display:inline-block;margin-top:12px;background:var(--accent);color:#fff;padding:12px 28px;border-radius:8px;text-decoration:none;font-weight:700}
+a.call:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+</style>
+</head>
+<body>
+<header>
+<h1>مطعم النخيل</h1>
+<p>مأكولات شعبية طازجة كل يوم</p>
+</header>
+<main>
+<h2>قائمة الطعام</h2>
+<ul class="menu">
+<li><span>كبسة دجاج</span><b>42 ريال</b></li>
+<li><span>مندي لحم</span><b>80 ريال</b></li>
+<li><span>مطبق</span><b>6 ريال</b></li>
+<li><span>عصير ليمون بالنعناع</span><b>5 ريال</b></li>
+</ul>
+
+<h2>المعلومات</h2>
+<div class="info">
+<div>ساعات العمل: 12 ظهرًا حتى 12 منتصف الليل</div>
+<div>العنوان: جدة الفيحاء </div>
+<div>الهاتف: 0555555555</div>
+<a class="call" href="tel:+966500000000">اتصل الآن</a>
+</div>
+</main>
+</body>
+</html>
